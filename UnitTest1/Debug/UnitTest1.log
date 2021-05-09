@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+C:\Users\User\OneDrive\Визуал\2AISTD_lab2\2AISTD_lab2\Huffman.h(28,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\OneDrive\Визуал\2AISTD_lab2\2AISTD_lab2\Huffman.h(74,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\OneDrive\Визуал\2AISTD_lab2\2AISTD_lab2\Huffman.h(174,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\OneDrive\Визуал\2AISTD_lab2\UnitTest1\UnitTest1.cpp(23,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\OneDrive\Визуал\2AISTD_lab2\UnitTest1\UnitTest1.cpp(36,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\User\OneDrive\Визуал\2AISTD_lab2\UnitTest1\UnitTest1.cpp(49,25): warning C4018: <: несоответствие типов со знаком и без знака
+     Создается библиотека C:\Users\User\OneDrive\Визуал\2AISTD_lab2\Debug\UnitTest1.lib и объект C:\Users\User\OneDrive\Визуал\2AISTD_lab2\Debug\UnitTest1.exp
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall Priority<class Huffman::Node *>::push_el(class Huffman::Node *,int)" (?push_el@?$Priority@PAVNode@Huffman@@@@QAEXPAVNode@Huffman@@H@Z) в функции "public: __thiscall Huffman::Huffman(char *)" (??0Huffman@@QAE@PAD@Z).
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: class Huffman::Node * __thiscall Priority<class Huffman::Node *>::pop(void)" (?pop@?$Priority@PAVNode@Huffman@@@@QAEPAVNode@Huffman@@XZ) в функции "public: __thiscall Huffman::Huffman(char *)" (??0Huffman@@QAE@PAD@Z).
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: bool __thiscall Priority<class Huffman::Node *>::isEmpty(void)" (?isEmpty@?$Priority@PAVNode@Huffman@@@@QAE_NXZ) в функции "public: __thiscall Huffman::Huffman(char *)" (??0Huffman@@QAE@PAD@Z).
+UnitTest1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: int __thiscall Priority<class Huffman::Node *>::tail_prior(void)" (?tail_prior@?$Priority@PAVNode@Huffman@@@@QAEHXZ) в функции "public: __thiscall Huffman::Huffman(char *)" (??0Huffman@@QAE@PAD@Z).
+C:\Users\User\OneDrive\Визуал\2AISTD_lab2\Debug\UnitTest1.dll : fatal error LNK1120: неразрешенных внешних элементов: 4
